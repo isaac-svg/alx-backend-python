@@ -10,9 +10,9 @@ from typing import List
 
 async def task_wait_n(n: int, max_delay:int) -> List[float]:
     """
-        Gathers  n number of calls of task_wait_random in a list and returns it as sorted
+    Gathers  n number of calls of task_wait_random in a list and returns it as sorted
 
-        Args:
+    Args:
         n(int): Number of times to call task_wait_random
         max_delay(int): Maximum delay for each task_wait_random call
     """
