@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+
+"""
+Measures time taken to call n asynchronous coroutines
+"""
+
 import asyncio
 import time
 from typing import List
